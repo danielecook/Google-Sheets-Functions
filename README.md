@@ -33,7 +33,7 @@ function elevation(lat, lon) {
 
 ## Science
 
-### PubMed - [Script](https://gist.github.com/danielecook/13a27f57ab5f1ff38dcd#file-pubmed-js)
+### Fetch PubMed Formatted Citation - [Script](https://gist.github.com/danielecook/13a27f57ab5f1ff38dcd#file-pubmed-js)
 
 Fetch a formatted citation from a pubmed identifier.
 
