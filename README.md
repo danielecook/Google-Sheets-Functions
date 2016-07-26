@@ -3,7 +3,13 @@ A repository of functions for google sheets
 
 # Setup
 
+## ImportJSON
+
 Many of these functions require you to add the [`ImportJSON`](https://raw.githubusercontent.com/fastfedora/google-docs/master/scripts/ImportJSON/Code.gs) function in order to work. 
+
+## Enable Advanced Services
+
+Some of the functions require you to [enable the advanced services](https://developers.google.com/apps-script/guides/services/advanced).
 
 # Contributing
 
@@ -38,6 +44,20 @@ Fetch a formatted citation from a pubmed identifier.
 __The heritability of metabolic profiles in newborn twins.__<br />
 Alul FY, Cook DE, Shchelochkov OA, Fleener LG, Berberich SL, Murray JC, Ryckman KK<br />
 (2013 Mar) _Heredity_ 110 (3) 253-8
+
+## Misc
+
+### Url Shortener
+
+```
+function shortenUrl(longUrl) {
+  var url = UrlShortener.Url.insert({
+    longUrl: longUrl
+  });
+  return(url.id)
+}
+```
+
 
 
 
